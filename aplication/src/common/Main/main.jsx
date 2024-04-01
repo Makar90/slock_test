@@ -1,6 +1,6 @@
 import './index.css';
 
-export default function Main (){
+function Main (){
     return(
         <main>
             <div className='container'>
@@ -9,3 +9,5 @@ export default function Main (){
         </main>
     )
 };
+
+export default Main;
